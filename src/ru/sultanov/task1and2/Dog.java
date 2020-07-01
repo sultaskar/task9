@@ -12,12 +12,12 @@ public class Dog extends Animal implements Run, Swim {
     }
 
     @Override
-    public String runExpression() {
+    public String run() {
         return ("Я собака и я могу бегать");
     }
 
     @Override
-    public String swimExpression() {
+    public String swim() {
         return ("Я собака и я могу плавать");
     }
 }

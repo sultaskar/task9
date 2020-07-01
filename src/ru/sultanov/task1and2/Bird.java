@@ -13,12 +13,12 @@ public class Bird extends Animal implements Fly, Run {
 
     //реализация второго задания
     @Override
-    public String flyExpression() {
+    public String fly() {
         return ("Я птица и я могу летать");
     }
 
     @Override
-    public String runExpression() {
+    public String run() {
         return ("Я птица и я могу бегать");
     }
 }
